@@ -11,7 +11,7 @@ let vao;      // vertex array object
 let offsetX = 0.0;  // Rectangle position offset
 let offsetY = 0.0;
 const MOVE_STEP = 0.01;  // Movement step
-const RECT_SIZE = 0.2;   // Rectangle size (half width/height)
+const RECT_SIZE = 0.1;   // Rectangle size (half width/height)
 
 function initWebGL() {
     if (!gl) {
